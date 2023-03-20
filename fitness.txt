@@ -1,0 +1,86 @@
+Cardio:
+  Beginner:
+        Rotation
+        Arm circles
+        Toe touch
+   Intermediate
+        In-place squats
+        Jogging in place
+        Marching in place
+        Jumping jacks
+    Advanced:
+        Lunges
+        Squat jumps
+        Mountain climbers
+        Burpees
+        High knees
+HIIT
+    Cardio
+    Upper-body
+    Lower-body
+    Core
+    Cardio
+       Upper:
+          Bear crawl
+          Wide push ups
+          High plank
+          Shoulder press
+          Tricep dip
+        Lower
+          High knees
+          Flutter kicks
+          Lunges
+          Hops
+          Jump squats
+          Glute bridge
+          Crunches
+        Core:
+          Sit-ups
+          Flutter kicks
+          Reverse Crunches
+          Side plank
+          Fore arm plank crunch
+Streching
+    Neck roll
+    Shoulder roll
+    Hip Rotation
+    Hamstring Strech
+    Calf Strech
+    Quadriceps Strech
+    Ankle roll
+    Child pose
+    Knee to chest Strech
+    Hip abduction
+    Side lunges 
+    Cobra Strech
+    Forward lunges
+Pilates
+   Core:
+      Leg lifts
+      Leg circles
+      Shoulder lifts
+      Criss-cross crunch
+      Pendulum
+      Double leg Strech
+      Scissor kicks
+      Side bends
+      Swan dive
+      Bird dog
+      Hovers
+      Roll down
+    Abs:
+      Hip dips
+      Pilates 100
+      Saw 
+      Mountain climbers
+      Criss cross Crunches
+      Scissor kicks
+Belly burning
+   Sprawls 
+   Burpees
+   Jumping jacks
+   Russian Twist
+   Butterfly Sit-Up Punches
+Ball Workouts
+Dumbell Workouts
+Yoga   
