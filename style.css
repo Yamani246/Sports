@@ -1,4 +1,70 @@
-body{
+*{
     padding: 0px;
     margin: 0px;
+}
+.nav{
+    background-color: black;
+    height: 15vh;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 70%;
+}
+.nav h2{
+    display: inline-block;
+    width: 30%;
+}
+footer{
+    background-color:black;
+    height: auto;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+   padding: 10px 10px;
+
+}
+.footer-content h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+.social_media{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 1rem ;
+    padding: 20px;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+.social_media li{
+    margin: 0 10px;
+}
+.social_media a{
+    text-decoration: none;
+    color: #fff;
+}
+.social_media a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.social_media a:hover i{
+    color: aqua;
 }
