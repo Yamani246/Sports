@@ -1,21 +1,32 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    height: 55px;
+    width: 100%;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+ padding-left :10px; ;
+}
+.logo{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: large;
+}
+.navwrapper{
+    display: flex;
+  align-items: center;
+justify-content: center;
 }
 .nav{
-    background-color: black;
-    height: 15vh;
-    color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} 
-.nav ul li{
-    list-style: none;
-    display: inline-block;
-    width: 70%;
-}
-.nav h2{
-    display: inline-block;
-    width: 30%;
+    font-size: medium; 
+    display: flex;
+    padding: 50px;
 }
 footer{
     background-color:black;
