@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Fitness tips</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}" />
+		<noscript><link rel="stylesheet" href="{{url_for('static',filename='css/noscript.css')}}"/></noscript>
+	</head>
+	<body class="is-preload">
+
+		
+			<div id="wrapper">
+
+					<header id="header">
+						<a href="{{url_for('index_html')}}" class="logo">Sports Updates</a>
+					</header>
+
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="{{url_for('index_html')}}">Fitness Tips</a></li>
+							<li class="active"><a href="{{url_for('generic_html')}}">Sports Updates</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+                 <section>
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h1>Sports Headlines</h1>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
+								<h1>Sports Headlines</h1>
+    <ul>
+    {% for article in articles %}
+        <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+    {% endfor %}
+    </ul>
+							</section>
+
+					</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

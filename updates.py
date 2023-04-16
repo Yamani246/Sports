@@ -3,8 +3,16 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route('/index')
+def index_html():
+    return render_template("index.html")
+
+@app.route('/generic')
+def generic_html():
+    return render_template("generic.html")
+
 @app.route('/')
-def index():
+def updates():
     
     url = "https://newsapi.org/v2/top-headlines"
     api_key = "fdc4b1f955dd4abdb25196d0491da958" 
@@ -30,5 +38,5 @@ def index():
         
         return f"Error: {response.status_code} - {response.text}"
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run()
