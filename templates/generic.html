@@ -11,16 +11,16 @@
 	<body class="is-preload">
 
 		
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
 
 					<header id="header">
-						<a href="{{url_for('index_html')}}" class="logo">Sports Updates</a>
+						<a href="{{url_for('generic_html')}}" class="logo">Sports Updates</a>
 					</header>
 
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="{{url_for('index_html')}}">Fitness Tips</a></li>
-							<li class="active"><a href="{{url_for('generic_html')}}">Sports Updates</a></li>
+							<li class="active"><a href="generic.html">Sports Updates</a></li>
 							
 						</ul>
 						<ul class="icons">
@@ -35,14 +35,6 @@
 
 						<!-- Post -->
 							<section class="post">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>Sports Headlines</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
 								<h1>Sports Headlines</h1>
     <ul>
     {% for article in articles %}
