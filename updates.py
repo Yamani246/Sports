@@ -1,7 +1,7 @@
 import requests
 from flask import Flask, render_template
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
@@ -25,10 +25,10 @@ def index():
         articles = data["articles"]
         
         
-        return render_template('index.html', articles=articles)
+        return render_template('generic.html', articles=articles)
     else:
         
         return f"Error: {response.status_code} - {response.text}"
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run()
