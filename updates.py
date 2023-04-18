@@ -39,4 +39,4 @@ def updates():
         return f"Error: {response.status_code} - {response.text}"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
