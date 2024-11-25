@@ -7,11 +7,11 @@ So, on this website, we try to promote fitness among people and encourage them t
 2. setup and activate the virtual environment
 3. run the command
     ```bash
-    python -m pip install --upgrade pip
+        python -m pip install --upgrade pip
 4.  run the command
-  ```bash
-    pip install -r requirements.txt
-    or
-    manually install the modules :
-    flask
-    requests
+   ```bash
+        pip install -r requirements.txt
+        or
+        manually install the modules :
+        flask
+        requests
